@@ -1,0 +1,176 @@
+body{
+    background-color: #D8D8BF;
+}
+h1 {
+    text-align: center;
+    color: #1C1C1C;
+    margin-bottom: 30px;
+}
+p {
+    text-align: left;
+    color: #1C1C1C;
+}
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+h2 {
+    font-size: 18px;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Estilo dos rótulos (labels) */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+/* Estilo dos campos de entrada */
+input[type="text"],input[type="email"],input[type="password"],input[type="date"],input[type="radio"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+}
+input[type="radio"] {
+    width: auto;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+input, textarea {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+input:hover, textarea:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+ /* Estilo do botão */
+ button {
+    width: 100%;
+    padding: 12px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Estilo do link */
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+/* Estilo para o botão "OK" do CEP */
+button[type="button"] {
+   width: auto;
+   background-color: #27ae60;
+   padding: 8px 20px;
+   margin-left: 10px;
+}
+button[type="button"]:hover {
+    background-color: #2ecc71;
+}
+ /* Estilo de layout */
+ form h2 + label {
+    margin-top: 20px;
+}
+
+form a {
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+}
+
+input[readonly] {
+    background-color: #e0e0e0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #1C1C1C;
+    cursor: pointer;
+}
+@media (prefers-color-scheme: dark) {
+    form {
+      background-color: white;
+      color: black;
+    }
+  }
+
+/* Telas menores */
+@media (max-width: 600px) {
+    form {
+        padding: 15px;
+        margin: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="date"],
+    textarea {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    button {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+
+/* Telas muito pequenas, abaixo de 400px */
+@media (max-width: 400px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    button[type="button"] {
+        padding: 6px 12px;
+        margin-left: 5px;
+    }
+}
+
+  
+
+
+
