@@ -1,3 +1,10 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
 body{
     background-color: #D8D8BF;
 }
@@ -146,6 +153,7 @@ ul {
     textarea {
         font-size: 14px;
         padding: 8px;
+      
     }
 
     button {
@@ -154,7 +162,7 @@ ul {
     }
 }
 
-/* Telas muito pequenas, abaixo de 400px */
+
 @media (max-width: 400px) {
     h1 {
         font-size: 20px;
